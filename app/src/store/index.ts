@@ -1,14 +1,10 @@
 import { createStore } from 'vuex';
+import { user } from './modules/user';
+import { global } from './modules/global';
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    user,
+    global,
   },
 });
